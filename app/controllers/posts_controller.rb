@@ -15,7 +15,7 @@ class PostsController < ApplicationController
       end
     else
       @posts = Post.all
-    
+
   end
 
   def show
